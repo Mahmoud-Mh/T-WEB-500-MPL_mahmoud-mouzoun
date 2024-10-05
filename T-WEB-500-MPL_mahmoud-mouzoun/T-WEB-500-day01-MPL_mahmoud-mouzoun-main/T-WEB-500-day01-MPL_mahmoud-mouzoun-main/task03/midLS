@@ -1,0 +1,6 @@
+#!/bin/bash
+# List all non-hidden files and directories sorted alphabetically, directories ending with a slash
+
+# Using ls to list files with -p (to add / to directories), and grep to exclude hidden files
+ls --ignore=".*" -1p | awk 'ORS=", "' | sed 's/, $/\n/'
+

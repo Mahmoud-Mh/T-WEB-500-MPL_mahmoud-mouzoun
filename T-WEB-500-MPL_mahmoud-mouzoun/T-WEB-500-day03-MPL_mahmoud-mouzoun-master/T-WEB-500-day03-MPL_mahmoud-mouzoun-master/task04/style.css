@@ -1,0 +1,115 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  
+  .tablet {
+    width: 1300px; 
+    height: 900px; 
+    border: 15px solid #ccc; 
+    border-radius: 40px; 
+    background-color: white;
+    position: relative; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  /* Container for the content and home button */
+  .content {
+    flex-grow: 1; /* Let the content take as much space as possible */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px; /* Reduced vertical spacing between rows */
+  }
+  
+  .section {
+    margin: 2px 0; /* Removed horizontal margins, kept vertical margins */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blue {
+    background-color: #4A90E2;
+    width:33.33%;
+    height: 100px; /* Reduced height */
+  }
+  
+  .green {
+    background-color: #8BC34A;
+    width: 99.4%;
+    height: 175px;
+  }
+  
+  .yellow {
+    background-color: #FFEB3B;
+    width: 33.33%;
+    height: 175px;
+    margin-right: 10px;
+  }
+  
+  .purple {
+    background-color: #9C27B0;
+    width: 33.33%;
+    height: 175px;
+    margin-right: 10px;
+  }
+
+  .pink {
+    background-color: pink;
+    width: 33.33%;
+    height: 175px;
+    margin-right: 10px;
+  }
+  
+  .red {
+    background-color: #F44336;
+    width: 99.4%;
+    height: 100px; /* Reduced height */
+  }
+  
+  /* Home button style */
+  .home-button {
+    width: 60px;
+    height: 60px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px; /* Positioned inside the bottom bezel */
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Slight shadow for a 3D look */
+  }
+  
+  /* For tablet responsiveness */
+  @media only screen and (max-width: 768px) {
+    .tablet {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .section {
+      height: auto;
+    }
+  }

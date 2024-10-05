@@ -1,0 +1,14 @@
+/* codingpedia.css */
+
+.box {
+    border: 2px solid black; /* Solid black border with 2px thickness */
+    margin: 10px; /* External margin of 10px */
+    padding: 10px; /* Internal padding for better appearance */
+    padding-left: 10px; /* Internal left padding */
+    padding-right: 10px; /* Internal right padding */
+}
+
+body {
+    margin: 0; /* Remove default body margin */
+    font-family: Arial, sans-serif; /* Set a default font */
+}

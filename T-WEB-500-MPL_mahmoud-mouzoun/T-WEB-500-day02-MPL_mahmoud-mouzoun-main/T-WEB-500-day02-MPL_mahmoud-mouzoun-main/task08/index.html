@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingPedia</title>
+    <link rel="stylesheet" href="codingpedia.css"> <!-- Link to CSS -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to CodingPedia!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="php.html">PHP</a></li>
+                <li><a href="sql.html">SQL</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="moving_square" id="movingSquare"></div> <!-- Moving square -->
+    </main>
+    <aside>
+        <p>Your introduction here.</p>
+    </aside>
+    <footer>
+        <address>
+            Mahmoud MOUZOUN<br>
+            73 Place du bouliéchou<br>
+            0760104787
+        </address>
+    </footer>
+
+    <script>
+        const square = document.getElementById('movingSquare');
+        let cycles = 0;
+
+        function moveSquare() {
+            if (cycles < 5) {
+                // Move down and change to green
+                square.style.transform = 'translateY(300px)';
+                square.style.backgroundColor = 'green';
+
+                setTimeout(() => {
+                    // Move right and change to blue
+                    square.style.transform = 'translate(300px, 300px)';
+                    square.style.backgroundColor = 'blue';
+
+                    setTimeout(() => {
+                        // Move up and change to yellow
+                        square.style.transform = 'translate(300px, 0px)';
+                        square.style.backgroundColor = 'yellow';
+
+                        setTimeout(() => {
+                            // Move back to original position and change to red
+                            square.style.transform = 'translate(0px, 0px)';
+                            square.style.backgroundColor = 'red';
+
+                            cycles++;
+                            setTimeout(moveSquare, 1000); // Wait before next cycle
+                        }, 1000);
+                    }, 1000);
+                }, 1000);
+            }
+        }
+
+        // Start the movement
+        moveSquare();
+    </script>
+</body>
+</html>

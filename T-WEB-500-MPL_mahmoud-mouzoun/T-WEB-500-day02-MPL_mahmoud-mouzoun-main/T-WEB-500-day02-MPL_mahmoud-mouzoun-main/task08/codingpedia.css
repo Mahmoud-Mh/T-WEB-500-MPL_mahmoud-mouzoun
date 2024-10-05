@@ -1,0 +1,22 @@
+/* codingpedia.css */
+
+body {
+    background-color: gray; /* Set the background color to gray */
+    margin: 0; /* Remove default margins */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+header, nav, main, aside, footer {
+    background-color: white; /* Set background color for other elements */
+    padding: 20px; /* Add padding */
+    margin: 10px; /* External margin of 10px */
+    border: 2px solid black; /* Solid black border */
+}
+
+.moving_square {
+    position: relative; /* Allow for relative positioning */
+    width: 100px; /* Set the width */
+    height: 100px; /* Set the height */
+    background-color: red; /* Initial color */
+    transition: background-color 1s, transform 1s; /* Smooth transitions for color and movement */
+}

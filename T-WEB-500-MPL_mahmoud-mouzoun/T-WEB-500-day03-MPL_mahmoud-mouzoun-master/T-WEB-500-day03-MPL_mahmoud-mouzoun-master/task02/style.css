@@ -1,0 +1,76 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Phone container */
+.phone {
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 20px;
+    border: 15px solid #333;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Screen container */
+.screen {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2px;  /* Reduced the gap further between boxes */
+}
+
+/* Individual color boxes */
+.box {
+    border-radius: 15px; /* Larger rounded corners */
+    width: 100%;
+}
+
+/* Adjust the height for the blue and red boxes */
+.blue {
+    background-color: #4285f4;
+    height: 12%;  /* Smaller height for the blue box */
+}
+
+.green {
+    background-color: #34a853;
+    height: 20%;  /* Regular height for the green box */
+}
+
+.yellow {
+    background-color: #fbbc05;
+    height: 20%;  /* Regular height for the yellow boxes */
+}
+
+.red {
+    background-color: #ea4335;
+    height: 12%;  /* Smaller height for the red box */
+}
+
+/* Add the circular button at the bottom */
+.phone::after {
+    content: '';
+    position: absolute;
+    bottom: 10px; /* Positioned at the bottom of the phone */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 50%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingPedia - Index</title>
+    <link rel="stylesheet" href="codingpedia.css">
+</head>
+<body>
+    <header class="box">
+        <h1>Welcome to CodingPedia!</h1>
+        <nav class="box">
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="php.html">PHP</a></li>
+                <li><a href="sql.html">SQL</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="box">
+        <p>CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual which functions as a wiki.</p>
+    </main>
+<article>
+    <h2>Ask Your Questions</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="firstName">First name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="3" max="99><br><br>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="\d{10}" title="10 digits" required><br><br>
+        
+        <label>Sex:</label>
+        <input type="radio" id="male" name="sex" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <label for="hairColor">Hair color:</label>
+        <input type="color" id="hairColor" name="hairColor"><br><br>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" value="<?php echo date('Y-m-d'); ?>" required><br><br>
+        
+        <label for="technology">Technology:</label>
+        <select id="technology" name="technology" required>
+            <option value="php">PHP</option>
+            <option value="sql">SQL</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+        </select><br><br>
+        
+        <label for="question">Question:</label>
+        <textarea id="question" name="question" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</article>
+
+    <aside class="box">
+        <p>Hello! My name is Mahmoud MOUZOUN, and I am a web development enthusiast. I love learning new technologies and sharing knowledge.</p>
+    </aside>
+    <footer class="box">
+        <address>
+            <strong>MAhmoud MOUZOUN</strong><br>
+            73 Place du bouliéchou <br>
+            0760104787
+        </address>
+    </footer>
+</body>
+</html>

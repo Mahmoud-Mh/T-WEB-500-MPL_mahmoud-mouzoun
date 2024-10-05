@@ -1,0 +1,38 @@
+/* codingpedia.css */
+
+body {
+    background-color: gray; /* Set the background color to gray */
+    margin: 0; /* Remove default margins */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+header {
+    display: grid; /* Use grid layout for the header */
+    grid-template-columns: 5fr 1fr; /* Ratio of 5 to 1 for title and nav */
+    padding: 20px; /* Add padding */
+    background-color: white; /* Set background color for header */
+}
+
+main {
+    display: flex; /* Use flexbox for main section */
+    width: 80%; /* Main takes 80% of the space */
+    margin: 20px; /* Add margin */
+    background-color: white; /* Set background color for main */
+    padding: 20px; /* Add padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for elevation */
+}
+
+aside {
+    display: flex; /* Use flexbox for aside section */
+    width: 20%; /* Aside takes 20% of the space */
+    margin: 20px; /* Add margin */
+    background-color: white; /* Set background color for aside */
+    padding: 20px; /* Add padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for elevation */
+}
+
+footer {
+    background-color: white; /* Set background color for footer */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center text in footer */
+}

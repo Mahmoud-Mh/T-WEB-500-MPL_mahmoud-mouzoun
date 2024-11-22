@@ -1,10 +1,11 @@
-# Web Development Seminar - T-WEB-500
+
+# 🌐 **Web Development Seminar - T-WEB-500**
 
 This repository contains the tasks and solutions for the **T-WEB-500 Web Development Seminar**. The seminar covers UNIX environments, HTML/CSS, JavaScript, and PHP across multiple days.
 
 ---
 
-## Table of Contents
+## 📜 **Table of Contents**
 1. [Overview](#overview)
 2. [Day 1: UNIX Environments](#day-1-unix-environments)
 3. [Day 2: HTML/CSS Basics](#day-2-htmlcss-basics)
@@ -18,16 +19,16 @@ This repository contains the tasks and solutions for the **T-WEB-500 Web Develop
 
 ---
 
-## Overview
+## 🌍 **Overview**
 The seminar provides hands-on experience in:
-- Setting up and working with UNIX environments.
-- Developing HTML/CSS pages with a focus on responsive design.
-- Writing JavaScript for both client-side interactions and dynamic behavior.
-- Using PHP for back-end development and server-side rendering.
+- 🖥️ Setting up and working with UNIX environments.
+- 📝 Developing HTML/CSS pages with a focus on responsive design.
+- 💻 Writing JavaScript for both client-side interactions and dynamic behavior.
+- ⚙️ Using PHP for back-end development and server-side rendering.
 
 ---
 
-## Day 1: UNIX Environments
+## 🖱️ **Day 1: UNIX Environments**
 - **Topics Covered**:
   - Creating directories and managing files.
   - Setting permissions and creating symbolic links.
@@ -38,7 +39,7 @@ The seminar provides hands-on experience in:
 
 ---
 
-## Day 2: HTML/CSS Basics
+## 🎨 **Day 2: HTML/CSS Basics**
 - **Topics Covered**:
   - Structuring HTML documents.
   - Creating navigation menus and forms.
@@ -50,7 +51,7 @@ The seminar provides hands-on experience in:
 
 ---
 
-## Day 3: Responsive Design
+## 📱 **Day 3: Responsive Design**
 - **Topics Covered**:
   - Using a mobile-first approach to design.
   - Adapting layouts for smartphones, tablets, and desktops.
@@ -60,7 +61,7 @@ The seminar provides hands-on experience in:
 
 ---
 
-## Day 6: JavaScript Fundamentals
+## 🖩 **Day 6: JavaScript Fundamentals**
 - **Topics Covered**:
   - Writing basic JavaScript functions.
   - Working with arrays, objects, and recursion.
@@ -70,7 +71,7 @@ The seminar provides hands-on experience in:
 
 ---
 
-## Day 7: JavaScript in Action
+## ✨ **Day 7: JavaScript in Action**
 - **Topics Covered**:
   - Interacting with the DOM.
   - Handling events like clicks, form submissions, and hover effects.
@@ -81,7 +82,7 @@ The seminar provides hands-on experience in:
 
 ---
 
-## Day 8: PHP Basics
+## 🛠️ **Day 8: PHP Basics**
 - **Topics Covered**:
   - Writing PHP functions for string manipulation and calculations.
   - Using PHP for back-end processing.
@@ -91,7 +92,7 @@ The seminar provides hands-on experience in:
 
 ---
 
-## Day 9: PHP and Forms
+## 📝 **Day 9: PHP and Forms**
 - **Topics Covered**:
   - Integrating PHP with HTML forms.
   - Handling `GET` and `POST` requests.
@@ -101,7 +102,7 @@ The seminar provides hands-on experience in:
 
 ---
 
-## Requirements
+## ⚙️ **Requirements**
 - **Languages/Tools**:
   - UNIX/Linux environment.
   - HTML/CSS and JavaScript.
@@ -112,8 +113,14 @@ The seminar provides hands-on experience in:
 
 ---
 
-## Installation and Usage
+## 🚀 **Installation and Usage**
 1. Clone the repository:
    ```bash
    git clone https://github.com/YourUsername/T-WEB-500.git
    cd T-WEB-500
+   ```
+
+2. Follow the instructions provided for each seminar day to execute specific tasks.
+
+---
+
